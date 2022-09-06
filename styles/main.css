@@ -1,7 +1,5 @@
 body {
-    /* background-color: linear-gradient(127deg, rgba(0,87,167,.8), rgba(0,87,167,0) 70.71%),
+    background-color: linear-gradient(127deg, rgba(0,87,167,.8), rgba(0,87,167,0) 70.71%),
     linear-gradient(217deg, rgba(238,35,62,.8), rgba(238,35,62,0) 70.71%),
-    linear-gradient(336deg, rgba(92, 172, 164,.8), rgba(92, 172, 164,0) 70.71%); */
-    background: rgb(125,249,255);
-    background: linear-gradient(180deg, rgba(125,249,255,1) 0%, rgba(255,255,255,1) 16%, rgba(125,249,255,1) 100%);
+    linear-gradient(336deg, rgba(92, 172, 164,.8), rgba(92, 172, 164,0) 70.71%);
 }
