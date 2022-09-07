@@ -6,9 +6,15 @@ body {
 
 img {
     max-width: 20%;
+    height: auto;
 }
 
+.main {
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
 .centered {
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
 }
