@@ -55,3 +55,17 @@ footer {
     display: block;
     text-align: center;
 }
+
+@media (max-width: 320px) {
+
+}
+
+@media (max-width: 768px) {
+    body {
+        background: rgba(92, 172, 164,.8);
+    }
+}
+
+@media (min-width: 1200px) {
+    
+}
