@@ -56,16 +56,19 @@ footer {
     text-align: center;
 }
 
-@media (max-width: 320px) {
-
-}
-
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 768px) {
     body {
         background: rgba(92, 172, 164,.8);
     }
+    .main-paragraph {
+        margin: 2em 1em;
+        padding: 1em 1em;
+        font-size: 1em;
+    }
 }
 
-@media (min-width: 1200px) {
-    
+@media (min-width: 768px) and (max-width: 1200px) {
+    body {
+        background: rgba(238,35,62,.8)
+    }
 }
