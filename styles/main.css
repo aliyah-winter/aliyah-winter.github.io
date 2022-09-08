@@ -14,6 +14,10 @@ h1 {
     font-size: 3em;
 }
 
+h2 {
+    font-family: Courier;
+}
+
 footer {
     display: block;
     position: fixed;
@@ -36,6 +40,16 @@ footer {
     color: whitesmoke;
 }
 
+.main-paragraph {
+    position: relative;
+    text-align: center;
+    margin: 2em 5em;
+    padding: 2em 2em;
+    top: 1em;
+    font-size: 1.5em;
+    font-family: Helvetica;
+    color: whitesmoke;
+}
 .centered {
     display: block;
     text-align: center;
