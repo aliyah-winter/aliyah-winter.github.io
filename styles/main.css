@@ -93,6 +93,13 @@ footer {
     margin-right: 200px;
 }
 
+.padding-example {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 @media (min-width: 320px) and (max-width: 768px) {
     body {
         background: rgba(92, 172, 164,.8);
