@@ -40,6 +40,11 @@ footer {
     height: auto;
 }
 
+.blog-image {
+    max-width: 60%;
+    height: auto;
+}
+
 .main {
     position: relative;
     text-align: center;
