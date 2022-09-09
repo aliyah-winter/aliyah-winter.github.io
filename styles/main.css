@@ -82,6 +82,10 @@ footer {
     text-align: center;
 }
 
+.border-example {
+    border: 2px solid blue;
+}
+
 @media (min-width: 320px) and (max-width: 768px) {
     body {
         background: rgba(92, 172, 164,.8);
