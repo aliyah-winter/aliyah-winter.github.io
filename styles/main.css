@@ -86,6 +86,13 @@ footer {
     border: 2px solid blue;
 }
 
+.margin-example {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 @media (min-width: 320px) and (max-width: 768px) {
     body {
         background: rgba(92, 172, 164,.8);
