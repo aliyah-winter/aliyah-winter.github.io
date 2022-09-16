@@ -59,19 +59,27 @@
             <p><strong>Arrays and Objects</strong><br><br>
                 Objects and arrays are both ways to store data inside of a variable. 
 
-                Objects can store data inside a variable by using pairs called key/value pairs. These are like two things that go together, and there can be any number of these pairs. We can access this information through dot notation by using the variable.key method:
+                Objects can store data inside a variable by using pairs called key/value pairs. These are like two things that go together, and there can be any number of these pairs. We can access this information through dot notation by using the variable.key or variable[key] method:
+                <br><br>
+                <p style="text-align:left;color:magenta">let person = {<br>
+                  firstName: ‘Little Miss’,<br>
+                  lastName: ‘Javascript’,<br>
+                  age: ‘ageless’<br>
+                  };</p><br>
                 
-                <!-- (insert image of code) -->
+                  <span style="color:magenta;">person.firstName</span> would return ‘Little Miss’ and <span style="color:magenta;">person[‘age’]</span> would return ‘ageless’.<br><br>
                 
-                An array is like a numbered list, so we can store multiple values inside a single variable. We can also access this list by their position on said list ie first, third, eighth etc, or by using a loop to ‘read’ through the whole list . Remember the first position on the array is zero! 
+                An array is like a numbered list, so we can store multiple values inside a single variable. We can also access this list by their position on said list ie first, third, eighth etc, or by using a loop to ‘read’ through the whole list . Remember the first position on the array is zero! <br><br>
                 
-                <!-- (insert image of array) -->
+                <p style="text-align:left;color:magenta;">let littleMissJs = [‘cool’, ‘fun’, ‘funky’];</p>
+
+                <span style="color:magenta;">littleMissJs[0]</span> would return ‘cool’ and <span style="color:magenta;">littleMissJs[2]</span> would return 'funky'.
                 
             </p>
           </div>
           <div class="main-paragraph">
             <p><strong>Functions</strong><br><br>
-                Functions are pieces of code we can use to perform a specific task. To make functions happen, Little Miss Javascript has to ‘call’ them and make sure they do their job. Functions can be ‘called’ immediately or only when something else happens. They are really useful for Little Miss Javascript because she can use the functions multiple times if needed.
+                Functions are pieces of code we can use to perform a specific task. To make functions happen, Little Miss Javascript has to ‘call’ them and make sure they do their job. Functions can be called at any point in the code, and as many times as you like, so they're very useful when Little Miss Javascript needs to do a repetitive task, and it helps code readability.
             </p>
           </div>
     </body>
