@@ -24,7 +24,7 @@ console.log(window.location.pathname)
 for (num of randomSet) {
     let angelImg = document.createElement('img')
     angelImg.setAttribute('class', 'angel')
-    if (window.location.pathname == './index.html') {
+    if (document.querySelector('h1').innerHTML == 'aliyah winter') {
         angelImg.src = `./images/angel${num}.png`
     } else {
         angelImg.src = `../images/angel${num}.png`
