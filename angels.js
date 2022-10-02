@@ -10,15 +10,23 @@ function randomNum () {
 }
 let randomInt = randomNum()
 
-let angelImg = document.createElement('img')
+const angelImg = document.createElement('img')
 angelImg.src = `images/angel${randomInt}.png`
 angelImg.setAttribute('class', 'angel')
 
-console.log(angelImg)
-
-function placeAngel () {
-    return angels.appendChild(angelImg)
+function placeThreeAngel () {
+    for (let i = 0; i < 3; i++) {
+        angels.appendChild(angelImg)
+    }
 }
-placeAngel()
-placeAngel()
-placeAngel()
+
+// function placeThreeAngel () {
+//     angels.appendChild(angelImg)
+// }
+
+placeThreeAngel()
+// function placeAngel () {
+//     angels.appendChild(angelImg)
+// }
+
+// placeAngel()
