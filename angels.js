@@ -3,7 +3,8 @@
 //create function to insert angel into div
 //loop over img creation and insertion 3 times to place 3 random angels
 //create set generator to make sure random nums are never the same
-//use set to update img src
+//loop over set to update img src
+//insert js and id of angels to all blog pages
 
 angels = document.getElementById('angels')
 
