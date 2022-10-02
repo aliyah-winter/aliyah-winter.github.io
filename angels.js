@@ -21,16 +21,16 @@ console.log(randomSet)
 
 console.log(window.location.pathname)
 
-// for (num of randomSet) {
-//     let angelImg = document.createElement('img')
-//     if (window.location.pathname == 'index.html') {
-//         angelImg.src = `images/angel${num}.png`
-//     } else {
-//         angelImg.src = `../images/angel${num}.png`
-//     }
-//     angelImg.setAttribute('class', 'angel')
-//     angels.appendChild(angelImg)
-// }
+for (num of randomSet) {
+    let angelImg = document.createElement('img')
+    angelImg.setAttribute('class', 'angel')
+    if (window.location.pathname == './index.html') {
+        angelImg.src = `./images/angel${num}.png`
+    } else {
+        angelImg.src = `../images/angel${num}.png`
+    }
+    angels.appendChild(angelImg)
+}
 // function randomNum() {
 //     return Math.floor(Math.random() * (8 - 1) + 1)
 // }
