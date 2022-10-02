@@ -19,21 +19,18 @@ function randomNumSet() {
 let randomSet = randomNumSet()
 console.log(randomSet)
 
-if (window.location.pathname == 'aliyah-winter.github.io/index.html') {
-    for (num of randomSet) {
-        let angelImg = document.createElement('img')
-            angelImg.src = `images/angel${num}.png`
-            angelImg.setAttribute('class', 'angel')
-            angels.appendChild(angelImg)
-    }
-} else {
-    for (num of randomSet) {
-        let angelImg = document.createElement('img')
-            angelImg.src = `../images/angel${num}.png`
-            angelImg.setAttribute('class', 'angel')
-            angels.appendChild(angelImg)
-    }
-}
+console.log(window.location.pathname)
+
+// for (num of randomSet) {
+//     let angelImg = document.createElement('img')
+//     if (window.location.pathname == 'index.html') {
+//         angelImg.src = `images/angel${num}.png`
+//     } else {
+//         angelImg.src = `../images/angel${num}.png`
+//     }
+//     angelImg.setAttribute('class', 'angel')
+//     angels.appendChild(angelImg)
+// }
 // function randomNum() {
 //     return Math.floor(Math.random() * (8 - 1) + 1)
 // }
