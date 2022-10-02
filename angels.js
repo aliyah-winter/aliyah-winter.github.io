@@ -4,17 +4,21 @@
 //use concatenation to select which angel at random
 
 angels = document.getElementById('angels')
-console.log(angels)
 
 function randomNum () {
- return Math.floor(Math.random() * 7)
+ return Math.floor(Math.random() * (8 - 1) + 1)
 }
 let randomInt = randomNum()
 
-let angel = document.createElement('img')
-angel.src = `images/angel${randomInt}.png`
-console.log(angel)
+let angelImg = document.createElement('img')
+angelImg.src = `images/angel${randomInt}.png`
+angelImg.setAttribute('class', 'angel')
+
+console.log(angelImg)
 
 function placeAngel () {
-    return angels.appendChild(angel)
+    return angels.appendChild(angelImg)
 }
+placeAngel()
+placeAngel()
+placeAngel()
