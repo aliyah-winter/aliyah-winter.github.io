@@ -8,6 +8,7 @@
 
 angels = document.getElementById('angels')
 
+
 function randomNumSet() {
     let set = new Set()
     while(set.size < 3) {
@@ -18,13 +19,21 @@ function randomNumSet() {
 let randomSet = randomNumSet()
 console.log(randomSet)
 
-for (num of randomSet) {
-    let angelImg = document.createElement('img')
-        angelImg.src = `images/angel${num}.png`
-        angelImg.setAttribute('class', 'angel')
-        angels.appendChild(angelImg)
+if (window.location.pathname == 'aliyah-winter.github.io/index.html') {
+    for (num of randomSet) {
+        let angelImg = document.createElement('img')
+            angelImg.src = `images/angel${num}.png`
+            angelImg.setAttribute('class', 'angel')
+            angels.appendChild(angelImg)
+    }
+} else {
+    for (num of randomSet) {
+        let angelImg = document.createElement('img')
+            angelImg.src = `../images/angel${num}.png`
+            angelImg.setAttribute('class', 'angel')
+            angels.appendChild(angelImg)
+    }
 }
-
 // function randomNum() {
 //     return Math.floor(Math.random() * (8 - 1) + 1)
 // }
