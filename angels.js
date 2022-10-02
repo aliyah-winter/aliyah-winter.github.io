@@ -1,32 +1,27 @@
 // INSERT 3 RANDOM ANGEL.PNG's
-//create function to insert angel into div
 //create function to randomise a number between 0 and 6
-//use concatenation to select which angel at random
+//create function to insert angel into div
+//loop over img creation and insertion 3 times to place 3 random angels
+//create statement to make sure random nums are never the same
 
 angels = document.getElementById('angels')
 
-function randomNum () {
+function randomNum() {
  return Math.floor(Math.random() * (8 - 1) + 1)
 }
-let randomInt = randomNum()
 
-const angelImg = document.createElement('img')
-angelImg.src = `images/angel${randomInt}.png`
-angelImg.setAttribute('class', 'angel')
-
-function placeThreeAngel () {
+function placeThreeAngel() {
     for (let i = 0; i < 3; i++) {
+        let randomInt = randomNum()
+        let angelImg = document.createElement('img')
+        angelImg.src = `images/angel${randomInt}.png`
+        angelImg.setAttribute('class', 'angel')
         angels.appendChild(angelImg)
     }
 }
-
-// function placeThreeAngel () {
-//     angels.appendChild(angelImg)
-// }
-
 placeThreeAngel()
-// function placeAngel () {
-//     angels.appendChild(angelImg)
-// }
 
-// placeAngel()
+// if (randomInt === randomInt) {
+//     return false
+// } else 
+    
